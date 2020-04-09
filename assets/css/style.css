@@ -1,9 +1,13 @@
 body {
 font: arial;
+background-image: image(assets);
 }
 aside {
-    display: block;
+background-color: #ffffff;
+border-color: grey;
+margin: auto;
 }
+
 
 .header {
 width: 100%;
@@ -18,18 +22,22 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .name {
     font: helvetica;
     background-color: #4aaaa5;
-    position: absolute;
+    position: fixed;
     left: 20%;
     top: 5px;
     width: 260px;
     height: 80px;
     color: #ffffff;
     text-align: center;
-    display: inline-block;
-   
+    inset-block: center;
 }
 
 .aboutme {
+    top: 30%;
+    left: 20%;
+    position: absolute;
+    color: #4aaaa5;
+
     
 }
 
@@ -43,7 +51,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
         left: 50%;
         width: 600px;
         height: auto;
-        transform: translate(-50%, -50%) }
+        transform: translate(-50%, -50%)
         
 }
 
