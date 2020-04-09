@@ -1,20 +1,25 @@
-body {
+.body {
 font: arial;
 background-image:;
 }
 
-aside {
+
+
+.aside {
 width: 600px;
 height: 400px;
 padding: 20px;
 margin: 100px auto;
-box-shadow: 0px 0px 10px 2px;
 }
 
 
 .header {
 width: 100%;
-height: 80px;
+height: 100px;
+position: absolute;
+margin-bottom: 5px;
+border: #ffffff;
+border-bottom: 2px;
 display: block;
 background-color: #ffffff;
 border-color: grey;
@@ -25,9 +30,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .name {
     font: helvetica;
     background-color: #4aaaa5;
-    position: fixed;
+    position: absolute;
     left: 20%;
-    top: 5px;
     width: 260px;
     height: 80px;
     color: #ffffff;
@@ -37,7 +41,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .aboutme {
     top: 30%;
-    left: 20%;
+    left: 28%;
     position: absolute;
     color: #4aaaa5;
 
@@ -45,10 +49,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .aboutmetext {
-        background: black;
-        color: white;
-        border-radius: 1em;
-        padding: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        border-radius: 5px;
+        padding: 5px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -59,5 +63,11 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .image {
+    position: absolute;
+    top: 280px;
+    
+}
+
+.footer {
 
 }
