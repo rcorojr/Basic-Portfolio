@@ -1,80 +1,135 @@
 .body {
-font: arial;
-}
-
-.nav {
-position: absolute;
-float: left;
-}
-
-
-
-.aside {
-width: 700px;
-height: 600px;
-padding: 20px;
-margin: 100px auto;
-}
-
-
-.header {
-width: 100%;
-height: 100px;
-position: absolute;
-margin-bottom: 5px;
-border-bottom: 2px;
-display: block;
-background-color: #ffffff;
-border-color: grey;
-box-sizing: border-box;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.name {
-    font: helvetica;
-    background-color: #4aaaa5;
-    position: absolute;
-    left: 20%;
-    width: 260px;
-    height: 80px;
-    color: #ffffff;
-    text-align: center;
-    inset-block: center;
-}
-
-.aboutme {
-    top: auto;
-    left: au;
-    position: absolute;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+    font: arial;
+    }
     
-}
+    .nav {
+    position: absolute
+    }
 
-.aboutmetext {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: larger;
-        position: absolute;
+    .tablink {
+        float: right;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 15%;
+        background-color: #ffffff;
+        border: none;
         color: #777777;
-        border-radius: 5px;
-        padding: 5px;
-        top: 50%;
-        left: 50%;
-        width: 600px;
-        height: auto;
-        transform: translate(-50%, -50%)
-        
-}
+        font-family: Arial, Helvetica, sans-serif;
+        border-right: #4aaaa5 10px;  
+    }
 
-.image {
-    position: absolute;
-    top: 280px;
     
-}
+    
+    
+    .aside {
+    width: 700px;
+    height: 600px;
+    padding: 20px;
+    margin: 100px auto;
+    }
+    
+    
+    .header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-bottom: 2px;
+    border-bottom: 2px;
+    display: block;
+    background-color: #ffffff;
+    border-color: grey;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .name {
+        font: helvetica;
+        background-color: #4aaaa5;
+        position: absolute;
+        left: 20%;
+        width: 260px;
+        height: 80px;
+        color: #ffffff;
+        text-align: center;
+        inset-block: center;
+    }
+    
+    .subhead {
+        top: auto;
+        left: au;
+        position: absolute;
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        
+    }
+    
+    .aboutmetext {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            position: absolute;
+            color: #777777;
+            border-radius: 5px;
+            padding: 5px;
+            top: 10%;
+            left: 50%;
+            width: 600px;
+            height: auto;
+            transform: translate(-50%, -50%)
+            
+            
+    }
+    
+    .image {
+        position: absolute;
+        top: 350px;
+        
+    }
 
-.footer {
-color: grey;
-width: 100%;
-height: 100px;
-}
+    .footer {
+        background-color:#666666;
+        border-color: #4aaaa5;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+    
+        }
+
+        /*contact page CSS */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+
+  input[type=submit] {
+    background-color:#4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: #ffffff;
+  }
+  
+  .container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+

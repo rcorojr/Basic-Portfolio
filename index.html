@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div class="header" style="margin-bottom: 2px;">
+        <div class="header" style="border: .5px solid #777777;">
         <h1 class="name">Rey Coronado </h1>
         <style> 
         body {
@@ -20,18 +20,18 @@
 
     <nav>
 
-    <div id="aboutnav" class="tabcontent"><h3>About</h3>
+    <div id="About" class="tabcontent"><h3>Contact</h3>
         </div>
 
-    <div id="contactnav" class="tabcontent"><h3>Contact</h3>
+    <div id="Contact" class="tabcontent"><h3>Portfolio</h3>
         </div>
 
-    <div id="portfolionav" class="tabcontent"><h3>Portfolio</h3>
+    <div id="Portfolio" class="tabcontent"><h3>About</h3>
         </div>
 
-        <button class="tablink" onclick="openNav('About', this, 'red')">About</button>
-        <button class="tablink" onclick="openNav('Contact', this, 'green')">Contact</button>
-        <button class="tablink" onclick="openNav('Portfolio', this, 'blue')">Portfolio</button>
+        <button class="tablink" onclick="openNav('Contact', this, 'red')" id="defaultOpen">Contact</button>
+        <button class="tablink" onclick="openNav('Portfolio', this, 'green')">Portfolio</button>
+        <button class="tablink" onclick="openNav('About', this, 'blue')">About</button>
     
 
 </nav>
@@ -39,10 +39,10 @@
 
 <aside class="aside" style="border: 1px solid #dddddd; background-color: #ffffff;">
         
-        <h2 class="aboutme" style="float: left; margin: 3px 12px 3px 0px;">About Me</h2>
-
-        <br> 
-    
+        <h2 class="subhead" style="float: left; margin: 3px 12px 3px 0px;">About Me</h2>
+<br>
+<br>
+        <hr>
         <img class="image" src="assets/images/PortfolioImage.jpg" style="height: 250px; width: auto; align-content: initial;"/>
 
         <p class="aboutmetext" style="position: relative; overflow: auto;">Hello I'm Rey Coronado. I'm originally from Albuquerque, NM but have spent the last 8 years in Los Angeles falling in love with the city and enjoying exploring it.</p> 
@@ -52,11 +52,10 @@
         <p class="aboutmetext" style="overflow-wrap:break-word; position: relative;">My background is in business operations development and I have had the pleasure of working with several startups over the years. From manufacturing to tech, I've seen the rollercoaster that is the startup world. I hope to develop myself as a developer to become more knowledgeable in business and also to develop platforms and applications myself.</p>
 </aside>
 
-
-<div class="footer">
+<div class="footer" style="left: 0; bottom: 0; width: 100%; background-color: #777777;">
 
 </div>        
 
 </body>
     
-    </html>>
+</html>
