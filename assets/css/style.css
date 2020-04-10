@@ -21,25 +21,26 @@
 
     
     .tablink:hover {
-      background-color: blueviolet;
+      background-color: grey;
       color: white;
     }
 
     .tablink:active {
-      background-color: green;
+      background-color: #4aaaa5;
       letter-spacing: 3px;
     }
 
-    .tablink:focus {
-      background-color: hotpink;
-      outline: none
-    }
-    
+      
     .aside {
-    width: 700px;
+    width: 960px;
     height: 600px;
     padding: 20px;
     margin: 100px auto;
+    outline-width: .5px;
+    outline-style: solid;
+    outline-color: #dddddd;
+    outline-width: 1px;
+    background-color: #ffffff;
     }
     
     
@@ -53,6 +54,9 @@
     border-color: grey;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    outline-width: .5px;
+    outline-style: solid;
+    outline-color: #666666;
     }
     
     .name {
@@ -83,13 +87,13 @@
     
     .aboutmetext {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: larger;
+            font-size: x-large;
             color: #777777;
             border-radius: 5px;
             padding: 5px;
             top: 10%;
             left: 50%;
-            width: 600px;
+            width: 860px;
             height: auto;
             
             
@@ -99,19 +103,26 @@
     .image {
         float: left;
         padding: 10px;
-        height: 200px;
+        height: 250px;
         width: auto;
         
     }
 
     .footer {
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
         background-color:#666666;
-        border-color: #4aaaa5;
+        outline-width: 10px;
+        outline-style: solid;
+        outline-color: #4aaa;
         left: 0;
         bottom: 0;
-        width: 100%;
-        position: fixed;
+        width: 100;
+        height: 50px;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     
         }
 
